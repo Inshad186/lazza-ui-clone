@@ -1,0 +1,352 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.head-container{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    width: 100%;
+    height: 107px;
+    position: fixed;
+    z-index: 1;
+}
+
+.lazza-logo{
+
+    width: 130px;
+    height: 75px;
+
+}
+
+.logo{
+    margin-left: 55px;
+    width: 55%;
+}
+
+.navbar-contents a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;font-size: 18px;
+
+}
+.navbar-contents{
+    word-spacing: 8px;
+}
+
+.icons img{
+    margin-left: 25px;
+    word-spacing: 8px;
+    width: 28px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+.lazza-image{
+    width: 100%;
+    height: 770px;
+    margin-top: 106px;
+}
+
+
+
+.paragraph{
+    text-align: center;
+    padding: 2% 0%;
+
+}
+
+.paragraph h1{
+    color: #212529;
+    font-size: 46px;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+.first-icecream{
+    width: 377px;
+    height: 276px;
+
+}
+
+
+.first-raw{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.first-raw {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+
+}
+
+
+.first-image{
+    background-image: url(./1st\ icecream.png);
+    background-repeat: no-repeat;
+    width: 377px; 
+    height: 276px;
+    background-size:100% 100%;
+    cursor: pointer;
+}
+
+.second-image{
+    background-image: url(./2nd\ icecream.png);
+    background-repeat: no-repeat;
+    width: 377px; 
+    height: 276px;
+    background-size:100% 100%;
+    cursor: pointer;
+    
+}
+
+.third-image{
+    background-image: url(./3rd\ icecream.png);
+    background-repeat: no-repeat;
+    width: 377px; 
+    height: 276px;
+    background-size:100% 100%;
+    cursor: pointer;
+
+}
+
+
+.one{
+    position: relative;
+    text-align: center;
+    margin-top: 16em;
+}
+.two{
+    position: relative;
+    text-align: center;
+    margin-top: 16em;
+}
+.three{
+    position: relative;
+    text-align: center;
+    margin-top: 16em;
+}
+
+
+
+
+.fourth-image{
+    background-image: url(./4th\ icecream.png);
+    background-repeat: no-repeat;
+    width: 377px; 
+    height: 276px;
+    background-size:100% 100%;
+    margin-top: 115px;
+    cursor: pointer;
+}
+
+.fifth-image{
+    background-image: url(./5th\ icecream.png);
+    background-repeat: no-repeat;
+    width: 377px; 
+    height: 276px;
+    background-size:100% 100%;
+    margin-top: 115px;
+    cursor: pointer;
+    
+}
+
+.sixth-image{
+    background-image: url(./6th\ icecream.png);
+    background-repeat: no-repeat;
+    width: 377px; 
+    height: 276px;
+    background-size:100% 100%;
+    margin-top: 115px;
+    cursor: pointer;
+
+}
+
+
+.four{
+    position: relative;
+    text-align: center;
+    margin-top: 16em;
+}
+.five{
+    position: relative;
+    text-align: center;
+    margin-top: 16em;
+}
+.six{
+    position: relative;
+    text-align: center;
+    margin-top: 16em;
+}
+
+
+.second-raw{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.second-raw{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+}
+
+
+
+.seventh-image{
+    background-image: url(./7th\ icecream.jpg);
+    background-repeat: no-repeat;
+    width: 377px; 
+    height: 276px;
+    background-size:100% 100%;
+    cursor: pointer;
+}
+
+
+.seven{
+    position: relative;
+    text-align: center;
+    margin-top: 16em;
+}
+
+
+.third-raw{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: inherit;
+}
+
+
+.third-raw{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 112px;
+    margin-left: 145px;
+}
+
+.last-banner{
+    display: flex;
+    justify-content: center;
+    margin-top: 185px;
+    background: #be9509;
+    padding: 20px 0;
+}
+
+
+
+.footer-container{
+    background-color: black;
+    width: 100%;
+    height: 250px;
+
+}
+
+
+
+.footer-col img{
+    width: 165px;
+    height: 150px;
+    margin-left: 30px;
+}
+
+
+
+.footer-col .simon{
+    margin-top: 25px;
+}
+.footer-col .footerlogo{
+    margin-top: 25px;
+}
+
+
+.footer-raw{
+    color: #be9509;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+ul a{
+    text-decoration: none;
+    color: #be9509;
+}
+
+ul{
+
+    padding-left: 0%;
+    list-style: none;
+}
+
+.footer-raw{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.footer-col{
+    width: 15%;
+    padding: 0 15px;
+}
+h4{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    
+}
+.social-links img{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+
+}
+.social-links{
+    margin-left: -30px;
+}
+
+.social-links .insta{
+    margin-left: 5px;
+}
+.social-links .pin{
+    margin-left: 5px;
+}
+.balance-footer{
+    width: 100%;
+    height: 70px;
+    background-color:black;
+    border-top: 1px solid white;
+} 
+
+
+.balance-footer{
+    width: 100%;
+    float: left;
+    color: #be9509;
+    padding-left: 3%;
+}
+
+.wicon img{
+    width: 70px;
+    height: 70px;
+
+}
+.whatsapp-icon{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+}
